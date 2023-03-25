@@ -1,6 +1,6 @@
 ﻿namespace ATMSim
 {
-    partial class Form1
+    partial class Start
     {
         /// <summary>
         ///  Required designer variable.
@@ -39,14 +39,15 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "Start";
             this.Text = "Bank of Bank ATM";
             this.ResumeLayout(false);
 
